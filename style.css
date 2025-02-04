@@ -1,17 +1,22 @@
 .card {
-    padding-top: 70px;
-    padding-bottom: 70px;
     margin-left: 20%;
     margin-top: 7%;
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: black 0px 0px 10px;
+    box-shadow:black 0px 0px 1px;
+    height: 450px;
+    width: 850px;
+    background: linear-gradient(to left, white 55%, antiquewhite 45%);
+}
+
+* {
+    font-family: 'Lato';
 }
 
 body {
-    background-color: #FBFBFB;
+    background: linear-gradient(to left, white 60%, antiquewhite 40%);
 }
 
 .card img {
@@ -22,18 +27,23 @@ body {
 
 .card h1 {
     font-family: "Luckiest Guy", serif;
-    font-weight: 400;
+    font-family: 'Lato';
+    font-weight: 900;
     font-style: normal;
   }
 
 
 header {
+    width: 100%;
+    height: 80px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    background-color: white;
 }
 
 header button {
+    font-weight: 300;
     size: 20px;
     background: transparent;
     margin-left: 20px;
@@ -41,5 +51,83 @@ header button {
     border: transparent;
     text-align: center;
     cursor: pointer;
-    font-family: Times;
+}
+
+header h2 {
+    font-weight: 850;
+    padding-left: 2px;
+}
+
+.blue-box {
+    align-items: middle;
+    margin-left: 35px;
+    width: 12px; /* Adjust size as needed */
+    height: 12px;
+    background-color: blue; /* Or any color you want */
+    margin-right: 8px; /* Adjust spacing between box and text */
+  }
+.about-buttons button {
+    display: inline-block;
+    height: 35px;
+    width: 120px;
+    font-size: 15px; 
+    text-align: center; 
+    text-decoration: none; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.resume-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.resume-button:hover {
+    background-color:white;
+    color: black;
+    border: 1px solid #007bff;
+}
+
+.projects-button {
+    background-color:white;
+    color: black;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.projects-button:hover {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+#about-heading {
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    border-collapse: collapse;
+    margin: 0px 0px 20px 0px;
+}
+
+#about-subheading {
+    margin: 0px 0px 20px 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#card-left {
+    text-align: center;
+    margin-right: 20px;
+    width: 50%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+#card-right {
+    font-weight: 350;
+    text-align: left;
+    width: 50%;
 }
