@@ -1,0 +1,45 @@
+.card {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 20%;
+    margin-top: 7%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 0px 0px 10px;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.card img {
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 45%;
+}
+
+.card h1 {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header button {
+    size: 20px;
+    background: transparent;
+    margin-left: 20px;
+    font-size: 16px;
+    border: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-family: Times;
+}

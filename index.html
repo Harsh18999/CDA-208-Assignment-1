@@ -5,34 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
+<header>
+  <p><h3> Harsh Kumar</h3> / Data Science Student </p>
+  <button style="margin-left: auto;">ABOUT ME</button>
+  <button>RESUME</button>
+  <button>PROJECTS</button>
+  <button style="margin-right: 20px;">CONTACT</button>
+
+</header>
 <body> 
-  
-    <h1>About Me</h1>
-    <br>
-    <img src="Images/my_image.jpg" alt="Harsh" height="200px" >
-    <br>
+    <div class="card">
+      <div style="width: 50%; text-align: center;">
+        <img src="Images/my_image.jpg" alt="Harsh" height="200px" >
+        <h1>Harsh Kumar</h1>
+        <p><b>Computer Science and Data Analytics Student</b> <br> Indian Institute of Technology, Patna </p>
+      </div>
+      <div style="width: 50%;">
+        <h1 style="text-align: center;">Hello</h1>
+        <p> I am a Data Science student with strong proficiency in Python, machine learning, data analysis, and backend. Experienced in data structures, algorithms, and database management. Currently pursuing a BSc in CSDA at IITP with an 8.78 CPI. Actively enhancing skills through a structured learning challenge, focusing on DSA, machine learning, and data analytics.</p>
+      </div>
+    </div>
     <h1>Summary</h1>
-    <p>Data Science student with strong proficiency in Python, machine learning, data analysis, and backend.
+    <div class="summary">
+      <p>Data Science student with strong proficiency in Python, machine learning, data analysis, and backend.
         Experienced in data structures, algorithms, and database management. Currently pursuing a BSc in CSDA at
         IITP with an 8.78 CPI. Actively enhancing skills through a structured learning challenge, focusing on DSA,
         machine learning, and data analytics.
-        </p>
-    
+      </p>
+    </div>
+
+
     <h1>Education</h1>
-    <div>
+    <div class="education">
       <p><b>Bachelor of Science ( Computer Science And Data Analytics )</b> <br>
       Indian Institute of Technology, Patna <br>
       CPI - 8.78 <br>
       2023 - 2027</p> 
     </div>
     <h1>Skills</h1>
-    <div style="display: flex; justify-content: space-between; ">
-        <ul> 
+    <div class="skills">
+      <ul> 
           <li>Python</li>
           <li>Data Science</li>
           <li>Data Analysis</li>
-        </ul>
+      </ul>
         <ul>
           <li>Machine Learning</li>
           <li>Advanced Machine Learning</li>
@@ -46,7 +66,7 @@
     </div>
 
     <h1>Projects</h1>
-    <div>
+    <div class="projects">
       <ul>
         <li><p><b>Shop Management System:</b>A Flask-based web application that efficiently manages inventory, tracks orders, generates and sends bills,
           and provides detailed insights on revenue, profit, and costs. Designed as a capstone project with Python and
@@ -58,7 +78,7 @@
     </div>
 
     <h1>Certifications</h1>
-    <div>
+    <div class="certifications">
       <ul>
         <li><strong>Summer Analytics 2024</strong><p>Consulting & Analytics Club IIT Guwahation</p></li>
       </ul>
@@ -68,9 +88,9 @@
     </div>
 
     <h1>Contact Details</h1>
-    <div>
+    <div class="contact">
       <p>Email: <a href="https://kumarh18999@gmail.com">kumarh18999@gmail.com</a></p>
       <p>Likedin: <a href="https://www.linkedin.com/in/harsh-kumar-885181297/">harsh-kumar-885181297</a></p>
     </div>
-  </body>
+</body>
 </html>
