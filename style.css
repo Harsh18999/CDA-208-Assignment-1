@@ -58,6 +58,10 @@ header button {
     cursor: pointer;
 }
 
+#about-button{
+    padding-left: 45%;
+}
+
 header h2 {
     font-weight: 850;
     padding-left: 2px;
@@ -143,6 +147,8 @@ header h2 {
     .card {
         flex-direction: column;
         padding: 10px;
+        background: linear-gradient(to bottom, white 40%, rgb(189, 221, 231) 60%);
+
     }
 
     .card img {
@@ -167,5 +173,13 @@ header h2 {
     .about-buttons button {
         width: 100%;
         margin: 10px 0;
+    }
+
+    #about-button {
+        padding-left: 0%;
+    }
+    
+    .blue-box {
+        display: none;
     }
 }
