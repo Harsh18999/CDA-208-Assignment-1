@@ -61,8 +61,8 @@ header h2 {
     max-width: 800px;
     margin: 50px auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-direction: row;
     background-color: white;
     padding: 20px;
@@ -71,8 +71,7 @@ header h2 {
 }
 
 .card-left, .card-right {
-    width: 100%;
-    max-width: 50%;
+    width: 48%;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
@@ -84,7 +83,6 @@ header h2 {
     padding-left: 5%;
 }
 
-
 .card-college, .card-course, .card-cpi, .card-right p {
     padding-left: 5%;
     font-weight: 350;
@@ -95,10 +93,8 @@ header h2 {
 .card-right p {
     padding-right: 5%;
     text-align: left;
-    margin-top: 20%;
     font-weight: 370;
     font-size: 16px;
-    margin-bottom: 30%;
 }
 
 .tag {
@@ -113,7 +109,7 @@ header h2 {
     }
 
     .card-left, .card-right {
-        max-width: 100%;
+        width: 100%;
         padding: 10px;
     }
 
