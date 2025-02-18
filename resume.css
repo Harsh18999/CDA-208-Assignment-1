@@ -1,0 +1,123 @@
+
+* {
+    font-family: 'Lato';
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header button {
+    font-weight: 300;
+    size: 20px;
+    background: transparent;
+    margin-left: 20px;
+    font-size: 16px;
+    border: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+header h2 {
+    font-weight: 850;
+    padding-left: 2px;
+}
+
+.blue-box {
+    align-items: middle;
+    margin-left: 35px;
+    width: 15px; 
+    height: 15px;
+    background-color: blue; 
+    margin-right: 8px; 
+
+  }
+
+.heading {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    font-weight: 800;
+}
+
+.card {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    background-color: white;
+}
+
+.card-left {
+    width: 50%;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.card-right {
+    width: 50%;
+    align-items: center;
+}
+
+.card-left h3{
+    padding-left: 5%;
+    margin-top: 20%;
+    font-weight: 900;
+    color: blue;
+}
+
+.card-right h3{
+    font-weight: 900;
+    color: blue;
+}
+
+.card-college {
+    padding-left: 5%;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.card-course {
+    padding-left: 5%;
+    font-weight: 350;
+    font-size: 14px;
+}
+
+.card-cpi {
+    padding-left: 5%;
+    font-weight: 350;
+    font-size: 14px;
+    margin-bottom: 35%;
+}
+
+.card-right p {
+    padding-right: 5%;
+    text-align: left;
+    margin-top: 20%;
+    font-weight: 370;
+    font-size: 16px;
+    margin-bottom: 30%;
+}
+
+.tag {
+    padding-left: 25%;
+    font-weight: 800;
+}

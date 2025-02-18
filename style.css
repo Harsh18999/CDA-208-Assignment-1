@@ -8,7 +8,8 @@
     box-shadow:black 0px 0px 1px;
     height: 450px;
     width: 850px;
-    background: linear-gradient(to left, white 55%, antiquewhite 45%);
+    box-shadow: #3f8de0 0px 0px 5px;
+    background: linear-gradient(to left, white 55%, rgb(189, 221, 231) 45%);
 }
 
 * {
@@ -16,7 +17,7 @@
 }
 
 body {
-    background: linear-gradient(to left, white 60%, antiquewhite 40%);
+    background: linear-gradient(to left, white 60%, lightblue 40%);
 }
 
 .card img {
@@ -40,6 +41,7 @@ header {
     flex-direction: row;
     align-items: baseline;
     background-color: white;
+    border-radius: 10px;
 }
 
 header button {
@@ -61,11 +63,12 @@ header h2 {
 .blue-box {
     align-items: middle;
     margin-left: 35px;
-    width: 12px; /* Adjust size as needed */
-    height: 12px;
+    width: 15px; /* Adjust size as needed */
+    height: 15px;
     background-color: blue; /* Or any color you want */
     margin-right: 8px; /* Adjust spacing between box and text */
   }
+
 .about-buttons button {
     display: inline-block;
     height: 35px;
