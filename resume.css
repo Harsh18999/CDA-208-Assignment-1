@@ -1,10 +1,11 @@
-
 * {
     font-family: 'Lato';
 }
 
 body {
     background-color: lightblue;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,11 +16,12 @@ header {
     align-items: baseline;
     background-color: white;
     border-radius: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 header button {
     font-weight: 300;
-    size: 20px;
     background: transparent;
     margin-left: 20px;
     font-size: 16px;
@@ -34,14 +36,14 @@ header h2 {
 }
 
 .blue-box {
-    align-items: middle;
+    display: flex;
+    align-items: center;
     margin-left: 35px;
-    width: 15px; 
+    width: 15px;
     height: 15px;
-    background-color: blue; 
-    margin-right: 8px; 
-
-  }
+    background-color: blue;
+    margin-right: 8px;
+}
 
 .heading {
     margin-top: 50px;
@@ -55,57 +57,39 @@ header h2 {
 }
 
 .card {
-    width: 50%;
-    margin-left: 25%;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     flex-direction: row;
     background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card-left {
-    width: 50%;
+.card-left, .card-right {
+    width: 100%;
+    max-width: 50%;
     align-items: center;
-    margin-left: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.card-right {
-    width: 50%;
-    align-items: center;
-}
-
-.card-left h3{
-    padding-left: 5%;
-    margin-top: 20%;
+.card-left h3, .card-right h3 {
     font-weight: 900;
     color: blue;
-}
-
-.card-right h3{
-    font-weight: 900;
-    color: blue;
-}
-
-.card-college {
     padding-left: 5%;
-    font-weight: 400;
-    font-size: 17px;
 }
 
-.card-course {
+
+.card-college, .card-course, .card-cpi, .card-right p {
     padding-left: 5%;
     font-weight: 350;
     font-size: 14px;
-}
-
-.card-cpi {
-    padding-left: 5%;
-    font-weight: 350;
-    font-size: 14px;
-    margin-bottom: 35%;
+    margin-bottom: 20px;
 }
 
 .card-right p {
@@ -120,4 +104,24 @@ header h2 {
 .tag {
     padding-left: 25%;
     font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .card-left, .card-right {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .card-left h3 {
+        margin-top: 10%;
+    }
+
+    .card-right p {
+        margin-top: 10%;
+    }
 }
